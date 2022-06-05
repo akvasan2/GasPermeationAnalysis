@@ -1,0 +1,13 @@
+package require psfgen
+topology /home/shinn3/toppar/stream/prot/toppar_all36_prot_heme.str
+
+pdbalias residue TIP3 CO2
+pdbalias atom TIP3 OH2 C
+
+segment ELS {pdb 01-oxySeed.pdb}
+coordpdb 01-oxySeed.pdb ELS
+
+regenerate angles
+guesscoord
+writepsf 04-O2.psf
+writepdb 04-O2.pdb
