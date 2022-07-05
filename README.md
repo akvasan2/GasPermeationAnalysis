@@ -1,4 +1,5 @@
 # GasPermeationAnalysis
+## Contributors: Archit Vasan and Eric Shinn
 ## General Overview
 Series of scripts to study permeation of gas molecules through membrane proteins
 ## Description of scripts
